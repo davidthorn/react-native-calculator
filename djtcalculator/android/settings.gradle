@@ -1,0 +1,3 @@
+rootProject.name = 'djtcalculator'
+
+include ':app'
