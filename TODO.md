@@ -41,3 +41,9 @@ Start: 11:52
 # Task Six
 
 Add component actions
+
+# Prototype completed
+
+Time: 14:52
+
+![Calculator Screenshot](./screenshots/completed.jpg "Calculator Prototype Screenshot")
