@@ -10,4 +10,23 @@ Start: 10:42
 
 # Task One
 
-Create Basic  React Native app and install it to the phone.
+Run `react-native init djtcalculator --template typescript`
+
+Start: 10:48
+
+# Task Two
+
+Configure release version
+
+Start: 10:55
+
+# Task Three
+
+Install release version to phone
+
+Start 10:56
+
+# Task Four
+
+Configure HOT Reloading with react-native
+
