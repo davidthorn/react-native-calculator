@@ -30,3 +30,8 @@ Start 10:56
 
 Configure HOT Reloading with react-native
 
+Start: 11:00
+
+# Task Five
+
+Create Calculator Component
