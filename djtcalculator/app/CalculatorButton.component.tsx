@@ -15,10 +15,13 @@ class CalculatorButton extends Component<CalculatorButtonProps, CalculatorButton
     }
 
     render() {
+        const value = this.props.text
+        const styleColor = parseInt(value) || [',' , '0', '%'].includes(value) ? style.numberButtonText : style.symbolButtonText
+
         return (
-            <View style={[style.view]}>
-                    <Text style={[style.buttonText]}>{this.props.text}</Text>
-                </View>
+            <View style={style.view}>
+                    <Text style={[style.buttonText, styleColor]}>{this.props.text}</Text>
+            </View>
 
         )
     }
@@ -27,15 +30,21 @@ class CalculatorButton extends Component<CalculatorButtonProps, CalculatorButton
 
 const style = StyleSheet.create({
     buttonText: {
-        fontSize: 50,
+        fontSize: 50
+    },
+    numberButtonText: {
+        color: '#777'
+    },
+    symbolButtonText: {
         color: 'deepskyblue'
     },
     view: {
-        flex: 0.20,
+        backgroundColor: 'transparent',
+        flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center'
-    },
+    }
 })
 
 export { CalculatorButton }

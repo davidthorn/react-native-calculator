@@ -35,3 +35,9 @@ Start: 11:00
 # Task Five
 
 Create Calculator Component
+
+Start: 11:52
+
+# Task Six
+
+Add component actions
